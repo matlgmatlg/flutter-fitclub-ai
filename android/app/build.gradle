@@ -1,0 +1,15 @@
+android {
+    namespace "com.example.flutter_fitclub_ai"
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    defaultConfig {
+        applicationId "com.example.flutter_fitclub_ai"
+        minSdkVersion 21  // Updated for camera plugin
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    // ... rest of the file ...
+} 
